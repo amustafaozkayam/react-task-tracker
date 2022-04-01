@@ -21,8 +21,8 @@ body {
   border-radius: 5px;
   background-image: linear-gradient(
     to bottom right,
-    rgb(23, 129, 9),
-    rgb(133, 209, 70)
+    rgb(48, 224, 32),
+    rgb(143, 192, 114)
   );
 }
 
@@ -62,22 +62,20 @@ body {
 }
 
 .task {
-  background: #dbcfcf;
+  background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 5px;
 }
 
 .done {
-  border-left: 10px solid rgb(102, 18, 77);
+  border-left: 10px solid crimson;
   text-decoration:line-through;
   background-color: darkgrey;
 }
 
-.task h4 {
+.task h3 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -105,8 +103,4 @@ body {
 footer {
   margin-top: 30px;
   text-align: center;
-}
-
-.fatimes{
-  color:rgb(131, 4, 4)
 }

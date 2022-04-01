@@ -1,12 +1,15 @@
 const Button = ({ color, text, toggleShow }) => {
-    const handleClick = () => {
-     
-    };
+  //   const handleClick = () => {
+  //     console.log("Click with handleClick");
+  //   };
   return (
-        
-     <div>
-      <button onClick={handleClick} className="btn">
-       Show Add Task Bar
+    <div>
+      <button
+        className="btn"
+        style={{ backgroundColor: color }}
+        onClick={toggleShow}
+      >
+        {text}
       </button>
     </div>
   );
